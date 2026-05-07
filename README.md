@@ -20,10 +20,10 @@ End-to-end time series forecasting project predicting Bitcoin price using multip
 ## 🛠️ Tech Stack
 
 - **Data:** pandas, requests
-- **ML:** scikit-learn, XGBoost, LightGBM
+- **Machine Learning:** scikit-learn, XGBoost, LightGBM
 - **Deep Learning:** TensorFlow / Keras
 - **Stats:** statsmodels (ARIMA)
-- **Viz:** matplotlib, seaborn, plotly
+- **Visuallize:** matplotlib, seaborn, plotly
 - **Dashboard:** Streamlit
 
 ## 📁 Project Structure
