@@ -27,15 +27,36 @@ End-to-end time series forecasting project predicting Bitcoin price using multip
 - **Dashboard:** Streamlit
 
 ## 📁 Project Structure
-
-\`\`\`
+```
 bitcoin-price-forecasting/
+│
 ├── data/
-│   ├── raw/              # Raw API data
-│   └── processed/        # Cleaned & merged
-├── notebooks/            # Jupyter analysis
-├── src/                  # Reusable modules
-├── models/               # Trained models
-├── reports/              # Figures & results
-└── app/                  # Streamlit dashboard
-\`\`\`
+│   ├── raw/                  # Raw API / exchange data
+│   └── processed/            # Cleaned, transformed datasets
+│
+├── notebooks/                # Jupyter notebooks for EDA & experiments
+│
+├── src/                      # Source code modules
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── feature_engineering.py
+│   ├── train.py
+│   └── evaluate.py
+│
+├── models/                   # Saved trained models
+│   ├── lstm_model.pkl
+│   └── xgboost_model.pkl
+│
+├── reports/                  # Generated reports, plots, metrics
+│   ├── figures/
+│   └── results.md
+│
+├── app/                      # Streamlit dashboard app
+│   ├── app.py
+│   └── components/
+│
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── .gitignore
+└── LICENSE
+```
