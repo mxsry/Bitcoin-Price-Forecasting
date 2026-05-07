@@ -1,4 +1,4 @@
-# Testing
+# Testing hehe
 from data_loader import fetch_binance_klines, fetch_fear_greed_index, fetch_blockchain_metric
 
 def test_binance():
