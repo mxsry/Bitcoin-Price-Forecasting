@@ -6,7 +6,7 @@ End-to-end time series forecasting project predicting Bitcoin price using multip
 
 - Build a reproducible data pipeline pulling from real APIs
 - Compare classical, machine learning, and deep learning forecasting methods
-- Honestly evaluate models with walk-forward validation
+- Evaluate models with walk-forward validation
 - Deploy results in an interactive dashboard
 
 ## 📊 Data Sources
