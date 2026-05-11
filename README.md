@@ -1,13 +1,12 @@
-# Bitcoin Price Forecasting
+# Bitcoin Price Forecasting Using Real-time Datasets
 
-End-to-end time series forecasting project predicting Bitcoin price using multiple data sources: market data, sentiment, and on-chain metrics.
+End-to-end time series forecasting project predicting Bitcoin price using multiple data sources included market data, sentiment, and on-chain metrics.
 
 ## 🎯 Project Goals
 
 - Build a reproducible data pipeline pulling from real APIs
+- Visuallize data, explore data analysis
 - Compare classical, machine learning, and deep learning forecasting methods
-- Evaluate models with walk-forward validation
-- Deploy results in an interactive dashboard
 
 ## 📊 Data Sources
 
@@ -20,21 +19,23 @@ End-to-end time series forecasting project predicting Bitcoin price using multip
 ## 🛠️ Tech Stack
 
 - **Data Handling:** pandas, requests, numpy
-- **Machine Learning:** scikit-learn, XGBoost, LightGBM
-- **Deep Learning:** TensorFlow / Keras
-- **Stats:** statsmodels (ARIMA)
+- **Machine Learning:** scikit-learn, XGBoost
 - **Visuallize:** matplotlib, seaborn, plotly
-- **Dashboard:** Streamlit
 
 ## 📁 Project Structure
 ```
 bitcoin-price-forecasting/
 ├── data/
-│   ├── raw/              # Raw API data
-│   └── processed/        # Cleaned & merged
-├── notebooks/            # Jupyter analysis
-├── src/                  # Reusable modules
-├── models/               # Trained models
-├── reports/              # Figures & results
-└── app/                  # Streamlit dashboard
+│   ├── raw/              # Raw API dataset
+│   └── processed/        # Cleaned & merged dataset
+├── notebooks/            
+│   ├── data_collection.ipynb   
+│   ├── eda.ipynb             
+│   ├── feature_engineering.ipynb  
+│   └── modeling.ipynb         
+├── src/                  
+│   ├── data_loader.py
+│   └── test_data_loader.py
+├── requirements.txt           
+└── README.md
 ```
